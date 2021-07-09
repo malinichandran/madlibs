@@ -65,6 +65,7 @@ const MadlibsForm = ({addStory}) => {
             onChange={handleChange}
           />    
           <button>Get Story</button>
+          <button onClick={handleRestart}>Restart</button>
       </form>
   )
 }
